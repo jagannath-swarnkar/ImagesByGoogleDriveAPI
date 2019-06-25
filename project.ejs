@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Images</title>
+    <style type="text/css">
+    	.imgsize{
+    		width: 200px;
+    		height:200px;
+    	}
+    </style>
+</head>
+</script>
+
+<body >
+	<ul>
+		<% for (var i=0; i < imgLink.length; i++){ %>
+		<tr>
+			<img class="imgsize" src=<%= imgLink[i] %>>
+		</tr>
+		<% } %>
+	</ul>
+</body>
+
+</html>
+
